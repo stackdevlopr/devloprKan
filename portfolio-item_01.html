@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hidayet Kanpolat Portfolio Website</title>
+
+    <!-- --- --- CSS NORMALIZE --- --- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <!-- --- --- CSS --- --- -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- --- --- JS --- --- -->
+    <script src="js/index.js" defer></script>
+
+    <!-- --- --- FONTS --- --- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- --- --- LOGO --- --- -->
+      <div class="logo">
+        <img src="img/HK_SIGN2.png" alt="HKN logo" />
+      </div>
+
+      <!-- --- --- NAV TOGGLE BTN --- --- -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- --- --- NAV --- --- -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Whay I do</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- --- --- INTRO --- --- -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        design/dev: <strong>front-end</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">dev challenges</p>
+      <img src="img/portfolio-01.png" alt="" class="intro__img__portfolio" />
+    </section>
+
+    <!-- --- --- PORTFOLIO EXAMPLES --- --- -->
+    <div class="portfolio-item-individual">
+      <p>
+        An important part of the process I follow to expand and maintain my
+        knowledge of web design and development is trying out design challenges
+        found on various educational websites on the Internet. In this category
+        you will find the results of the challenges I have completed. At this
+        stage of my learning, I am focusing on HTML5 and CSS3 techniques, with a
+        little bit of JavaScript magic here and there. However, my goal remains
+        to master JavaScript (vanilla) and React (native).
+      </p>
+      <!-- --- --- EXAMPLE_01 --- --- -->
+      <div>
+        <h3 class="ex_title">[Stats preview card component]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_1/stats_preview_card.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A card component divided into a part with some statistics and a part
+          with a context image.
+          <br />
+          <span class="used__tools">[HTML5 / CSS3]</span>
+        </p>
+        <p>
+          <a
+            href="https://loving-jackson-15a4e9.netlify.app/"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+
+      <!-- --- --- EXAMPLE_02 --- --- -->
+      <div>
+        <h3 class="ex_title">[3-Column preview card component]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_1/3-column_preview_card_component.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A card component divided into 3 columns with the same number of
+          categories; hover effect on the buttons.
+          <br />
+          <span class="used__tools">[HTML5 / CSS3]</span>
+        </p>
+        <p>
+          <a
+            href="https://dazzling-snyder-38b1a3.netlify.app/"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+
+      <!-- --- --- EXAMPLE_03 --- --- -->
+      <div>
+        <h3 class="ex_title">[Order summary card component]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_1/order_summary_card.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A card component with some hover states for interactive elements.
+          <br />
+          <span class="used__tools">[HTML5 / CSS3]</span>
+        </p>
+        <p>
+          <a
+            href="https://angry-thompson-20d2e1.netlify.app/"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- --- --- FOOTER --- --- -->
+    <footer class="footer">
+      <p class="letsConnect">Let's connect!</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="mailto:hidayet.kanpolat@outlook.com"
+          >
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://be.linkedin.com/in/hidayetkanpolat"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://dribbble.com/studio_roketto"
+            target="_blank"
+          >
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.artstation.com/studio-roketto"
+            target="_blank"
+          >
+            <i class="fab fa-artstation"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.behance.net/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.deviantart.com/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-deviantart"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

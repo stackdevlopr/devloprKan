@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hidayet Kanpolat Portfolio Website</title>
+
+    <!-- --- --- CSS NORMALIZE --- --- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <!-- --- --- CSS --- --- -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- --- --- JS --- --- -->
+    <script src="js/index.js" defer></script>
+
+    <!-- --- --- FONTS --- --- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- --- --- LOGO --- --- -->
+      <div class="logo">
+        <img src="img/HK_SIGN2.png" alt="HKN logo" />
+      </div>
+
+      <!-- --- --- NAV TOGGLE BTN --- --- -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- --- --- NAV --- --- -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Whay I do</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- --- --- INTRO --- --- -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        design/dev: <strong>website</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        mockups/prototypes
+      </p>
+      <img src="img/portfolio-02.png" alt="" class="intro__img__portfolio" />
+    </section>
+
+    <!-- --- --- PORTFOLIO EXAMPLES --- --- -->
+    <div class="portfolio-item-individual">
+      <p>
+        In this section, you will find website prototypes I have created while
+        following and coding, along with online tutorials. This is a great way
+        to understand how full websites and their features are built from the
+        ground up and made responsively. Each time, I try to give the final
+        prototype a personal spin to avoid just copying the tutorial. This
+        allows me to practice and test some of the techniques I have picked up
+        from other tutorials.
+      </p>
+      <!-- --- --- EXAMPLE_01 --- --- -->
+      <div>
+        <h3 class="ex_title">[Responsive, essential & robust website]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_2/website_prototype_01/website_prototype_01_1.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_2/website_prototype_01/website_prototype_01_2.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A robust and responsive website consisting of some of the most
+          commonly used subpages and a working contact form page.
+          <br />
+          <span class="used__tools"
+            >[HTML5 / CSS3 / FORMSPREE (contactform)]</span
+          >
+        </p>
+        <p>
+          <a
+            href="https://cocky-panini-3be27d.netlify.app/"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+
+      <!-- --- --- EXAMPLE_02 --- --- -->
+      <div>
+        <h3 class="ex_title">[Responsive, modern landing page]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_2/website_prototype_02/website_prototype_02.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A modern and responsive landing page, with hovering effects on the
+          interactive elements.
+          <br />
+          <span class="used__tools">[HTML5 / CSS3]</span>
+        </p>
+        <p>
+          <a
+            href="https://admiring-yalow-d72850.netlify.app/"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+
+      <!-- --- --- EXAMPLE_03 --- --- -->
+      <div>
+        <h3 class="ex_title">[Responsive, modern services page]</h3>
+        <img
+          class="ex_img"
+          src="./img/PORTFOLIO_2/website_prototype_03/website_prototype_03.png"
+          alt=""
+          onContextMenu="return false;"
+        />
+        <p>
+          A modern and responsive landing page, with hovering effects on the
+          interactive elements and a little JS magic to toggle the navigation.
+          <br />
+          <span class="used__tools">[HTML5 / CSS3 / JS]</span>
+        </p>
+        <p>
+          <a
+            href="https://competent-montalcini-9803d7.netlify.app/index.html"
+            target="_blank"
+            class="btn"
+            >live preview</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- --- --- FOOTER --- --- -->
+    <footer class="footer">
+      <p class="letsConnect">Let's connect!</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="mailto:hidayet.kanpolat@outlook.com"
+          >
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://be.linkedin.com/in/hidayetkanpolat"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://dribbble.com/studio_roketto"
+            target="_blank"
+          >
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.artstation.com/studio-roketto"
+            target="_blank"
+          >
+            <i class="fab fa-artstation"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.behance.net/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.deviantart.com/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-deviantart"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

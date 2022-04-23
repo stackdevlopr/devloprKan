@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hidayet Kanpolat Portfolio Website</title>
+
+    <!-- --- --- CSS NORMALIZE --- ---  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <!-- --- --- CSS --- --- -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- --- --- JS --- --- -->
+    <script src="js/index.js" defer></script>
+
+    <!-- --- --- FONTS --- --- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- --- --- LOGO --- --- -->
+      <div class="logo">
+        <img src="img/HK_SIGN2.png" alt="HKN logo" />
+      </div>
+
+      <!-- --- --- NAV TOGGLE BTN --- --- -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- --- --- NAV --- --- -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Whay I do</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- --- --- INTRO --- --- -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Hidayet<br />Kanpolat</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        >front-end dev<br />
+        >illustrator
+      </p>
+      <img
+        src="img/devK.jpg"
+        alt="a picture of Hidayet Kanpolat"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- --- --- "WHAT I DO" SECTION --- --- -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+
+      <!-- --- --- SERVICES ALL --- --- -->
+      <div class="services">
+        <!-- --- --- SERVICE --- --- -->
+        <div class="service">
+          <h3 class="serviceTitle">Design/development</h3>
+          <p>
+            Since I have always been very interested in awesome looking web
+            designs and animations, and envied the people who could make these
+            cool things work through programming, I decided to do something
+            about it in early 2021.
+          </p>
+          <p>
+            I did some research on the internet and found out that there are a
+            lot of very comprehensive tutorials out there for anyone who wants
+            to teach themselves how to program. So I started following and
+            coding HTML and CSS tutorials and trying out front-end coding
+            challenges to learn the basics of web development.
+          </p>
+          <p>
+            However, the learning does not stop when the tutorial is over.
+            That's why I keep checking back every day, discovering and learning
+            new designs and developments to build a set of skills and feel more
+            comfortable in web development every time. Currently, I am still
+            building my HTML and CSS skills, and I recently started JavaScript
+            as well. I have never been so eager to dive deep into the
+            challenging and interesting world of functions, arrays, variables,
+            loops, ...
+          </p>
+        </div>
+
+        <div class="service">
+          <h3 class="serviceTitle">Freestyle illustrator</h3>
+          <p>
+            As a fan of manga, anime, and comics, drawing superheroes and
+            villains was one of my favorite things to do growing up. I think
+            that was one of the main triggers for my interest in design in
+            general.
+          </p>
+          <p>
+            So learning to work with different (digital) tools to design and
+            draw was an indispensable step for me, as the digital world offers
+            so many opportunities to get creative and turn imagination into
+            illustrations. Getting creative with these digital tools is a
+            never-ending adventure as I discover and learn new features and
+            skills each time as the tools offer more and more opportunities to
+            reach the next level of creativity.
+          </p>
+        </div>
+        <!-- / SERVICE --- --- -->
+      </div>
+      <!-- / SERVICES --- --- -->
+
+      <!-- --- --- "MY WORK" BTN --- --- -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- --- --- "WHO I AM" SECTION --- --- -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        >designer-developer<br />
+        >illustrator
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Born and raised in Antwerp-Belgium, king of a beautiful queen,
+          guardian knight of a beautiful little princess, retro fan, old school
+          vinyl collector, freestyle illustrator and non-hardcore video gamer.
+        </p>
+        <p>
+          Always eager to discover and master new skills and tools, fascinated
+          by design and technology, convinced that "play === develop === play",
+          strongly believe that music is the answer and comic books never stop
+          inspiring.
+        </p>
+      </div>
+      <img
+        src="img/devK2.jpg"
+        alt="a picture of Hidayet Kanpolat"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- --- --- "MY WORK" SECTION --- --- -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my work
+      </p>
+
+      <!-- --- --- PORTFOLIOS ALL --- --- -->
+      <div class="portfolio">
+        <!-- --- --- PORTFOLIO CATEGORY 01 --- --- -->
+        <a
+          href="portfolio-item_01.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-01.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">design/dev:</p>
+            <p class="text">front-end challenges</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 02 --- --- -->
+        <a
+          href="portfolio-item_02.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-02.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">design/dev:</p>
+            <p class="text">website prototypes</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 03 --- --- -->
+        <a
+          href="portfolio-item_03.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-03.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">design/dev:</p>
+            <p class="text">concepts</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 04 --- --- -->
+        <a
+          href="portfolio-item_04.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-04.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">design/dev:</p>
+            <p class="text">wireframes</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 05 --- --- -->
+        <a
+          href="portfolio-item_05.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-05.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">coding:</p>
+            <p class="text">HTML/CSS/JS</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 06 --- --- -->
+        <a
+          href="portfolio-item_06.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-06.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">illustrations:</p>
+            <p class="text">pattern design</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 07 --- --- -->
+        <a
+          href="portfolio-item_07.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-07.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">illustrations:</p>
+            <p class="text">icon design</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 08 --- --- -->
+        <a
+          href="portfolio-item_08.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-08.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">illustrations:</p>
+            <p class="text">print design</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 09 --- --- -->
+        <a
+          href="portfolio-item_09.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-09.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">illustrations:</p>
+            <p class="text">digital art</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 10 --- --- -->
+        <a
+          href="portfolio-item_10.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-10.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">other:</p>
+            <p class="text">edit, cut & mix</p>
+          </div>
+        </a>
+
+        <!-- --- --- PORTFOLIO CATEGORY 11 --- --- -->
+        <a
+          href="portfolio-item_11.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/portfolio-11.png" alt="" class="portfolio__img" />
+          <div class="overlay">
+            <p class="categoryText">wordpress:</p>
+            <p class="text">design & edit</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- --- --- FOOTER --- --- -->
+    <footer class="footer">
+      <p class="letsConnect">Let's connect!</p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="mailto:hidayet.kanpolat@outlook.com"
+          >
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://be.linkedin.com/in/hidayetkanpolat"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://dribbble.com/studio_roketto"
+            target="_blank"
+          >
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.artstation.com/studio-roketto"
+            target="_blank"
+          >
+            <i class="fab fa-artstation"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.behance.net/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.deviantart.com/studioroketto"
+            target="_blank"
+          >
+            <i class="fab fa-deviantart"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
